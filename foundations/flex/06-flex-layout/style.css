@@ -29,6 +29,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 
 }
 
@@ -56,7 +57,12 @@ input {
 }
 
 .content {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .footer {
